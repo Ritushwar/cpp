@@ -2,5 +2,5 @@
 In function overloading "Function" name must be same but arguments passing through the function must be<br>
 different. It is the example of <b>POLYMORPHISM<b> in c++<br>
 Types of function overloading<br>
-1)number of arguments passed
+1)number of arguments passed<br>
 2)types of argument passed 
