@@ -1,20 +1,20 @@
 <b>Class And Object<b><br>
 Class is the collection of similiar type of object.It is the blueprint for creating object<br>
-'class' keyword is used to declare class in c++.
+'class' keyword is used to declare class in c++. <br>
 
-       SYNTAX
-   class class_name{
-      private:
-        private member variables;
-        private member function;
-        public:
-          public member variables;
-          public member function;
-   };
+       SYNTAX <br>
+   class class_name{  <br>
+      private:   <br>
+        private member variables;  <br>
+        private member function;  <br>
+        public:   <br>
+          public member variables; <br>
+          public member function;   <br>
+   };  <br>
    <br>
    For creating the object of class class_name inside the main function<br>
 
-   SYNTAX
+   SYNTAX <br>
       class_name object_name;
 
 <b>PRIVATE MEMBER FUNCTION<b> <br>
