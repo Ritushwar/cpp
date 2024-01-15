@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int n;
+int n;       //return by reference is possible for only global variable
 int& test();   //function declaration
 int main(){
     test()=10;   //value of n is assigned as 10  

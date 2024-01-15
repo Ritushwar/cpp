@@ -16,7 +16,7 @@ void sample::display(){
     cout<<"Y: "<<y<<endl;
 }
 int main(){
-    sample s1(100,200); //implict call //invokes constructors
+    sample s1(100,200); //implict call invokes constructors
     sample s2 = sample(300,400);  //explict call
     cout<<"Of object s1"<<endl;
     s1.display();
