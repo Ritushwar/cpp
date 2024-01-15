@@ -19,6 +19,7 @@ int main(){
     int a=10;
     int b=20;
     swap(&a,&b); //calling function by passing address
+    cout<<"a: "<<a<<" b: "<<b<<endl;
     swap(a,b);
     cout<<"a: "<<a<<" b: "<<b<<endl;
     return 0;
