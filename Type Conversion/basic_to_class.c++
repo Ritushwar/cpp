@@ -21,7 +21,7 @@ int main(){
     int t;
     cout<<"Enter the time in minutes: ";
     cin>>t;
-    T1 = t;              //built in to class type conversion just like float_type = int_type
+    T1 = t;            //built in to class type conversion just like float_type = int_type
     T1.display();
     return 0;
 }
