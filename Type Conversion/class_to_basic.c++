@@ -21,10 +21,13 @@ Time::operator int(){
     return t;
 }
 int main(){
-    Time T1;
+    Time T1,T2;
     T1.get();
-    int x;
+    T2.get();
+    int x,y;
     x = T1;           //converting class data type to int data type
+    y = T2;
     cout<<x<<" Minutes"<<endl;
+    cout<<y<<" Minutes"<<endl;
     return 0;
 }
