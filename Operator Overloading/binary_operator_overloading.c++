@@ -1,4 +1,4 @@
-//Binary Operator Overloading
+//Binary Operator Overloading  as member function
 #include<iostream>
 using namespace std;
 class complex{
