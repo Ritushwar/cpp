@@ -1,4 +1,4 @@
-//wap to illustrate the inheritance
+//Virtual base class
 #include<iostream>
 using namespace std;
 class student{
@@ -6,28 +6,26 @@ class student{
     int roll;
     public:
     void sget(){
-        cout<<"roll no: ";
+        cout<<"Roll no: ";
         cin>>roll;
     }
     void sdisplay(){
-        cout<<"Roll no: "<<roll<<endl;
+        cout<<"Roll No: "<<roll<<endl;
     }
 };
-class test:public student{
+class test: virtual public student{
     protected:
     char name[20];
     public:
     void tget(){
-        cout<<"Enter Name: ";
+        cout<<"Name: ";
         cin>>name;
-        sget();
     }
     void tdisplay(){
         cout<<"Name: "<<name<<endl;
-        sdisplay();
     }
 };
-class sports:public student{
+class sports: virtual public student{
     protected:
     float price;
     public:
@@ -40,26 +38,25 @@ class sports:public student{
     }
 };
 class result: public test, public sports{
-    protected:
     float fee;
     public:
     void rget(){
-        tget();
-        ssget();
+         tget();  //name
+         sget();  //roll
+         ssget(); //price
         cout<<"Fee: ";
-        cin>>fee;
+        cin>>fee;  //fee
     }
     void rdisplay(){
-        tdisplay();
-        ssdisplay();
+        tdisplay();  //name
+        sdisplay();  //roll no
+        ssdisplay(); //price
         cout<<"Fee: "<<fee<<endl;
     }
 };
 int main(){
-    result r1,r2;
+    result r1;
     r1.rget();
-    r2.rget();
     r1.rdisplay();
-    r2.rdisplay();
     return 0;
 }
