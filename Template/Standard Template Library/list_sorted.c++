@@ -11,7 +11,7 @@ int main(){
     l.push_back("Rabindra");
     l.push_back("Rohit");
     l.sort();                 //sorted the list in ascending order
-    while(!l.empty()){
+    while(!l.empty()){        //return 0 if list is not empty
         cout<<l.front()<<endl;
         l.pop_front();
     }
