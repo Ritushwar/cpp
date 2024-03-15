@@ -6,7 +6,7 @@ int min(int x, int y, int z){
     if(x<y&&x<z){
         return x;
     }
-    else if(y<<x&&z<<y){
+    else if(y<x&&z<y){
         return y;
     }
     else

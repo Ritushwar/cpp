@@ -6,9 +6,9 @@ void calc(int x){
     if(x==1)
     throw(x);
     else if(x==-1)
-    throw(x);
+    throw -1.0;
     else if(x==0)
-    throw(x);
+    throw 'x';
     }
     catch(...){
         cout<<"Exception was occured"<<endl;
