@@ -5,8 +5,8 @@ class demo{
     int x;
     double y;
     public:
-     demo(int, double);
-     demo(demo&);
+     demo(int, double);         //parameterized constructor
+     demo(demo&);              //copy constructor
      void display();
 };
 demo::demo(int a, double b){
