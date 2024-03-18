@@ -1,4 +1,4 @@
-//constructor and destructor in multilevel inherutance
+//constructor and destructor in multilevel inheritance
 #include<iostream>
 using namespace std;
 class A{
