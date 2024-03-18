@@ -1,4 +1,4 @@
-//WAP in CPP to overload the streaming operator as the member function
+//WAP in CPP to overload the streaming operator(olny perform by friend function)
 #include<iostream>
 using namespace std;
 class complex{
